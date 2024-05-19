@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: rgba(244, 237, 242, 0.804);
+    overflow-y: hidden;
+}
+
+#root {
+    background-color: rgba(255, 255, 255, 0.804);
+    font-family: "Carrois Gothic SC", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgba(244, 237, 242, 0.804);
+}
+
+.inputt:focus{
+    border-color: gray;
+}
+
+
+.player-0 {
+    position: absolute;
+    bottom: 0%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 50%;
+	transform: translateX(-50%) ;
+}
+
+.player-1 {
+    position: absolute;
+    bottom: 0%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 60%;
+}
+
+.player-2 {
+    position: absolute;
+    bottom: 15%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 80%;
+}
+
+.player-3 {
+    position: absolute;
+    bottom: 50%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 82.5%;
+}
+
+.player-4 {
+    position: absolute;
+    bottom: 65%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 80%;
+}
+
+.player-5{
+    position: absolute;
+    bottom: 0%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 40%;
+}
+
+.player-6 {
+    position: absolute;
+    bottom: 15%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 20%;
+}
+
+.player-7 {
+    position: absolute;
+    bottom: 50%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 17.5%;
+}
+
+.player-8 {
+    position: absolute;
+    bottom: 65%; /* 41px/962px */ /* ADD 2PX TO ALL VETICAL CALCULATIONS - MOVED PLAYERBOARD UP FOR CARD SPACE  (WAS 4.262%)*/
+	left: 20%;
+}
+
